@@ -6,9 +6,12 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "anomalib>=2.2.0",
+    "optuna>=4.7.0",
+    "optuna-integration[pytorch-lightning]>=4.7.0",
     "requests>=2.32.5",
     "torch>=2.10.0",
     "torchvision>=0.25.0",
+    "ultralytics>=8.3.0",
 ]
 
 [[tool.uv.index]]

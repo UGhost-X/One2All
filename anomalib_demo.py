@@ -1,4 +1,10 @@
+# ============== 国内镜像配置 - 代码最顶部添加 ==============
 import os
+# 设置Hugging Face Hub国内镜像（清华源）
+# os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+# 设置PyTorch Hub国内镜像（备用，防止模型走torch下载）
+# os.environ["TORCH_HUB_DIR"] = "https://mirrors.tuna.tsinghua.edu.cn/pytorch/hub"
+# ==========================================================
 import numpy as np
 from PIL import Image
 from pathlib import Path
